@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 64px;
+}
+
+h2 {
+	color: #45015d;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+hr {
+	width:100%;
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	margin: 20px 0;
+	background-color: #45015d;
+}
+
+.menu {
+	width: 150px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #45015d;
+	border-radius:15px;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+}
+
+.menu a {
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	text-decoration: solid;
+	color: inherit;
+	box-sizing: border-box;
+}
+
+.menu a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.main {
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+
+.images img {
+	width: 45%;
+	border-radius:10px;
+	margin: 5px;
+	opacity: 0.7;
+}
+
+.images img:hover {
+	opacity: 1;	
+}
+
+.member {
+	padding: 8px 8px;
+	width: 30%;
+	display: inline-block;
+	/* опционально */
+	box-sizing: border-box; 
+	min-width: 200px;
+}
+
+.member img {
+	filter: grayscale(30%);
+	border-radius:10px;
+	width: 100%;
+}
+
+.member .description {
+	background-color: #f1f1f1;
+	border-radius:5px;
+	padding: 2px 16px 5px;
+}
+
+.member .position {
+	color: gray;
+}
+#packages{
+	text-align: center;
+}
+.card{
+    background-color: rgb(219, 213, 213);
+	display: inline-block;
+	border-radius: 15px;
+    width: 30%;
+	margin: 0 1%;
+}
+.card-hed1{
+    background-color: #45015d;
+	border-radius: 15px;
+	padding: 20px 40px;
+	color: #fff;
+}
+.card-hed2{
+    background-color: rgb(253, 60, 60);
+	border-radius: 15px;
+	padding: 20px 40px;
+	color: #fff;		
+}
+.card-hed1 p{
+	font-weight: 700;
+}
+.card-hed2 p{
+	font-weight: 700;
+}
+.card p{
+	border-bottom: 1px solid gray;
+	border-radius: 15px;
+	padding-bottom: 15px;
+}
+.card button{
+	margin-bottom: 15px;
+	border-radius: 20px;
+	border: none;
+	padding: 10px;
+}
+.white{background-color: white;}
+.red{background-color: red;color: white;}
+#ciuh{
+	position: relative;
+	right: 39%;
+}
+input{
+	padding: 10px 0;
+	width: 95%;
+}
+#contact button{
+	background-color: #45015d;
+	padding: 10px 0;
+	width: 95%;
+	color: #fff;
+
+	border: none;
+	border-radius: 10px;
+	margin: 1% 0 10% 0;
+}
+#footer{
+	background-color: rgb(224, 224, 224);
+	padding: 10px;
+	text-align: right;
+}
+#footer p{color: #000;}
+#footer a{color: #000;}
+/* media */
+@media(max-width:600px ){
+.menu{
+	display: none;
+}
+.main{
+	margin: 0;
+}
+hr{
+	width: 90%;
+}
+.card{
+	min-width: 150px;
+}
+h2{
+	font-size: 27px;
+}
+h1{
+	font-size: 33px;
+}
+}
